@@ -1,2 +1,2 @@
-import PostList from "./postlist";
+import PostList from "./post-list";
 export default PostList;

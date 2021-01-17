@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f0ec9a3-d35b-4fd8-b192-d2b4cdbd4e34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6f0ec9a3-d35b-4fd8-b192-d2b4cdbd4e34" name="Default Changelist" comment="added functions for adding and removing posts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post-add-form/post-add-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post-add-form/post-add-form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/post-list-item/post-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post-list-item/post-list-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post-list/postlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post-list/postlist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post-status-filter/post-status-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post-status-filter/post-status-filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post-list/postlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post-list/post-list.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
@@ -35,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,8 +83,19 @@
       <updated>1610552522184</updated>
       <workItem from="1610552524162" duration="10010000" />
       <workItem from="1610653649821" duration="13000" />
-      <workItem from="1610700898790" duration="3764000" />
+      <workItem from="1610700898790" duration="3907000" />
+      <workItem from="1610780844404" duration="1960000" />
+      <workItem from="1610796395115" duration="1870000" />
+      <workItem from="1610893542493" duration="6038000" />
     </task>
+    <task id="LOCAL-00001" summary="star and like events added">
+      <created>1610705153191</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610705153191</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +112,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="star and like events added" />
+    <MESSAGE value="added functions for adding and removing posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added functions for adding and removing posts" />
   </component>
 </project>

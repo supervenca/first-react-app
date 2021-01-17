@@ -3,17 +3,18 @@ import PostListItem from '../post-list-item';
 
 import './post-list.css';
 
-const PostList = ({posts}) => {
+const PostList = ({posts, onDelete}) => {
 
 //перебор элементов массива принятых данных (из app.js) и перезапись в новый массив:
     const elements = posts.map((item) => {
-        return (
-            <li className="list-group-item">
-                <PostListItem
-                    label={item.label}
-                    important={item.important}/>
-            </li>
-        )
+            const {id, ...itemProps} = item;
+            return (
+                <li key={id} className="list-group-item">
+                    <PostListItem
+                        {...itemProps}
+                        onDelete={() => onDelete(id)}/>
+                </li>
+            )
     });
 
     return (
